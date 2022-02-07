@@ -61,6 +61,8 @@ h2, h3{
 header{
     grid-area: cabecera;
     background-color: goldenrod;
+    background-image: linear-gradient(to top, goldenrod, dimgrey); 
+    /* background-image: radial-gradient(goldenrod, dimgrey); Segunda opcion */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,7 +72,7 @@ header{
 	left: 0; /* Posicionamos la cabecera al lado izquierdo */
 	top: 0; /* Posicionamos la cabecera pegada arriba */
 	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
-
+    border-bottom: solid 2px;
 }
 
 
@@ -163,7 +165,7 @@ footer{
     justify-content: space-between;
     border-top: 2px solid ;
     margin-top: 1rem;
-
+    background-image: linear-gradient(to top, goldenrod, dimgrey);
     position: absolute;
     bottom: 0;
     width: 100%;
