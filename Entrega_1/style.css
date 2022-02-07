@@ -166,8 +166,8 @@ footer{
     border-top: 2px solid ;
     margin-top: 1rem;
     background-image: linear-gradient(to top, goldenrod, dimgrey);
-    position: absolute;
-    bottom: 0;
+/*    position: absolute;
+    bottom: 0; */
     width: 100%;
     height: 15vh;
 }
