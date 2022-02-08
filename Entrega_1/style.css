@@ -37,7 +37,7 @@ body{
     display: grid;
     grid-template-areas:
         "cabecera cabecera cabecera cabecera"
-        ". cuerpo cuerpo  cuerpo"
+        ". cuerpo cuerpo  ."
         "piePag piePag piePag piePag";
 }
 .contenedorPadre__precios{
