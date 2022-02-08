@@ -263,6 +263,10 @@ form input{
     background-color:rgba(135, 206, 250, 0.466);
     border-radius: 5px;
 }
+#contactanosAnimaciones{
+ 
+
+}
 
 /* Responsive para Tablet */
 
@@ -283,7 +287,55 @@ form input{
     }
 }
 
+#imagenContacto{
+    border-radius: 50%;
+    margin: 10px;
+    animation-name: mover-imagen;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
 
+@keyframes mover-imagen{
+    5%{
+        border: solid 1px blue;
+    }
+
+    10%{
+        border: solid 1.5px red;
+    }
+
+    15%{
+        border: solid 2px green;
+    }
+
+    20%{
+        border: solid 2.5px yellow;
+    }
+    30%{
+        border: solid 3px yellowgreen;
+    }
+    40%{
+        border: solid 3.5px aqua;
+    }
+    50%{
+        border: solid 4px chocolate;
+    }
+    60%{
+        border: solid 4.5px cadetblue;
+    }
+    70%{
+        border: solid 5px darkorange;
+    }
+    80%{
+        border: solid 5.5px firebrick;
+    }
+    90%{
+        border: solid 6px fuchsia;
+    }
+    100%{
+        border: solid 6.5px honeydew
+    }
+}
 
 
 
