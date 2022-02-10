@@ -263,11 +263,6 @@ form input{
     background-color:rgba(135, 206, 250, 0.466);
     border-radius: 5px;
 }
-#contactanosAnimaciones{
- 
-
-}
-
 /* Responsive para Tablet */
 
 @media only screen and (max-width:780px) {
@@ -294,7 +289,12 @@ form input{
     animation-duration: 8s;
     animation-iteration-count: infinite;
 }
-
+.bg-form{
+    background-color: rgb(112, 100, 100);
+}
+.c-blanco{
+    color: white;
+}
 @keyframes mover-imagen{
     5%{
         border: solid 1px blue;
